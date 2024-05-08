@@ -1,7 +1,7 @@
 import { environment } from 'src/environments/environment';
 
 const BASE_URL = environment.production
-  ? 'https://crazyweather.onrender.com'
+  ? 'https://crm-logiscool.onrender.com'
   : 'http://localhost:5000';
 
 export const USER_LOGIN_URL = BASE_URL + '/api/users/login';

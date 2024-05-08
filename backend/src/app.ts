@@ -19,7 +19,7 @@ app.use(
   cors({
     credentials: true,
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-    origin: ["https://crazyweather.onrender.com"],
+    origin: ["https://crm-logiscool.onrender.com"],
   })
 );
 
